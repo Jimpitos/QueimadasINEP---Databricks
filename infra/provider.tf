@@ -13,9 +13,9 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "rg-tfstate-novo"
-    storage_account_name = "sttfqueimadas555295v3"
-    container_name       = "tferm555295"
+    resource_group_name  = "rg-queimadas-dbx-aula5"
+    storage_account_name = "sttfstateaula5rm555295"
+    container_name       = "tfstate"
     key                  = "monitor-queimadas.tfstate"
   }
 }
